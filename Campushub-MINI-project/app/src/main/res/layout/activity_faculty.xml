@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Directory"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"/>
+
+    <EditText
+        android:id="@+id/searchFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search by name..."
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

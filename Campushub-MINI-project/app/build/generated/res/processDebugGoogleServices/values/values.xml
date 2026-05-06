@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">197806524300</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGAnPBqd_upa_H7znBMlByLLXu8faeowk</string>
+    <string name="google_app_id" translatable="false">1:197806524300:android:ecbf22a8a11ab1bff078a9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGAnPBqd_upa_H7znBMlByLLXu8faeowk</string>
+    <string name="google_storage_bucket" translatable="false">campushub-ccbc8.firebasestorage.app</string>
+    <string name="project_id" translatable="false">campushub-ccbc8</string>
+</resources>
